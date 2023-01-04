@@ -1,0 +1,40 @@
+.account{
+    width: 500px;
+    .head{
+        margin: 0px 0px 19px 0px;
+        h2{
+            margin: 0px 0px 5px 0px;
+        }
+        a{
+            margin: 0px;
+        }
+        .ico{
+            font-size: 100px;
+            margin: 10px auto;
+        }        
+    }
+    .form{
+        .input{
+            width: 100%;
+            margin: 8px 0px;
+        }
+        .sptb{
+            margin: 20px 0px;
+        }
+        .button{
+            margin: 39px 0px 0px 0px;            
+            padding: 10px 20px;
+            border-radius: 5px;
+            &.fw{
+                width: 100%;
+            }
+        }
+        &.formv{
+            .button{
+                width: 150px;
+                padding: 10px;
+                margin: 50px auto 0px auto;
+            }
+        }
+    }
+}

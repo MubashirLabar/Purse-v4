@@ -1,0 +1,348 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?x1sbj0');
+  src:  url('fonts/icomoon.eot?x1sbj0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?x1sbj0') format('truetype'),
+    url('fonts/icomoon.woff?x1sbj0') format('woff'),
+    url('fonts/icomoon.svg?x1sbj0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; 
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dollar1:before {
+  content: "\e941";
+}
+.icon-calendar1:before {
+  content: "\e930";
+}
+.icon-flag1:before {
+  content: "\e924";
+}
+.icon-document-play:before {
+  content: "\e93e";
+}
+.icon-document-cloud:before {
+  content: "\e92a";
+}
+.icon-document-locked:before {
+  content: "\e92b";
+}
+.icon-folder-locked:before {
+  content: "\e92c";
+}
+.icon-cloud-download:before {
+  content: "\e91b";
+}
+.icon-document-certificate:before {
+  content: "\e92d";
+}
+.icon-certificate:before {
+  content: "\e92e";
+}
+.icon-tag-cord:before {
+  content: "\e944";
+}
+.icon-cloud-wind:before {
+  content: "\e929";
+}
+.icon-cloud-add:before {
+  content: "\e92f";
+}
+.icon-barometer:before {
+  content: "\e91c";
+}
+.icon-warning:before {
+  content: "\e93b";
+}
+.icon-wallet:before {
+  content: "\e935";
+}
+.icon-information:before {
+  content: "\e919";
+}
+.icon-information1:before {
+  content: "\e91a";
+}
+.icon-folder2:before {
+  content: "\e913";
+}
+.icon-folder-remove:before {
+  content: "\e912";
+}
+.icon-key:before {
+  content: "\e910";
+}
+.icon-mail-envelope-closed:before {
+  content: "\e90f";
+}
+.icon-cloud-upload:before {
+  content: "\e90e";
+}
+.icon-folder-add:before {
+  content: "\e90d";
+}
+.icon-trash-can:before {
+  content: "\e90b";
+}
+.icon-document:before {
+  content: "\e90a";
+}
+.icon-folder:before {
+  content: "\e909";
+}
+.icon-adjustments:before {
+  content: "\e93c";
+}
+.icon-global:before {
+  content: "\e906";
+}
+.icon-transfer:before {
+  content: "\e928";
+}
+.icon-bolt:before {
+  content: "\e902";
+}
+.icon-pencil:before {
+  content: "\e942";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-credit-card:before {
+  content: "\e93f";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-power:before {
+  content: "\e9b5";
+}
+.icon-list2:before {
+  content: "\e9bb";
+}
+.icon-flag:before {
+  content: "\e9cc";
+}
+.icon-eye:before {
+  content: "\e9ce";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-half:before {
+  content: "\e9d8";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-cross1:before {
+  content: "\ea0f";
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}
+.icon-google:before {
+  content: "\ea88";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-stackoverflow:before {
+  content: "\ead0";
+}
+.icon-add_link:before {
+  content: "\e939";
+}
+.icon-access_time:before {
+  content: "\e91d";
+}
+.icon-arrow_drop_down:before {
+  content: "\e922";
+}
+.icon-arrow_forward_ios:before {
+  content: "\e923";
+}
+.icon-settings_backup_restore:before {
+  content: "\e93d";
+}
+.icon-calendar_today:before {
+  content: "\e931";
+}
+.icon-calendar2:before {
+  content: "\64";
+}
+.icon-calendar:before {
+  content: "\e933";
+}
+.icon-user1:before {
+  content: "\e915";
+}
+.icon-check1:before {
+  content: "\e914";
+}
+.icon-trash1:before {
+  content: "\e90c";
+}
+.icon-percent:before {
+  content: "\e903";
+}
+.icon-chevron-right:before {
+  content: "\e904";
+}
+.icon-chevron-left:before {
+  content: "\e905";
+}
+.icon-cloud-sync:before {
+  content: "\e989";
+}
+.icon-shield-user:before {
+  content: "\e9a9";
+}
+.icon-lock:before {
+  content: "\e9ae";
+}
+.icon-trash:before {
+  content: "\e9db";
+}
+.icon-envelope:before {
+  content: "\e9f2";
+}
+.icon-folder1:before {
+  content: "\ea2b";
+}
+.icon-user:before {
+  content: "\eab4";
+}
+.icon-wallet1:before {
+  content: "\eb35";
+}
+.icon-bill-euro:before {
+  content: "\eb40";
+}
+.icon-link2:before {
+  content: "\edc7";
+}
+.icon-check:before {
+  content: "\edfb";
+}
+.icon-cross:before {
+  content: "\edfc";
+}
+.icon-plus1:before {
+  content: "\edfe";
+}
+.icon-chevron-down:before {
+  content: "\ee04";
+}
+.icon-chevron-right1:before {
+  content: "\ee06";
+}
+.icon-forward:before {
+  content: "\e917";
+}
+.icon-cheveron-down:before {
+  content: "\e908";
+}
+.icon-question:before {
+  content: "\e907";
+}
+.icon-reddit-alien:before {
+  content: "\e943";
+}
+.icon-bitcoin1:before {
+  content: "\e938";
+}
+.icon-phone:before {
+  content: "\e936";
+}
+.icon-envelope1:before {
+  content: "\e937";
+}
+.icon-edit:before {
+  content: "\e934";
+}
+.icon-pencil-square-o:before {
+  content: "\e934";
+}
+.icon-unlock-alt:before {
+  content: "\e932";
+}
+.icon-angle-double-right:before {
+  content: "\e927";
+}
+.icon-qrcode:before {
+  content: "\e926";
+}
+.icon-arrow-up:before {
+  content: "\e925";
+}
+.icon-circle-o-notch:before {
+  content: "\e921";
+}
+.icon-hourglass-3:before {
+  content: "\e920";
+}
+.icon-external-link:before {
+  content: "\e91f";
+}
+.icon-copy:before {
+  content: "\e91e";
+}
+.icon-truck:before {
+  content: "\e916";
+}
+.icon-user-o:before {
+  content: "\e918";
+}
+.icon-television:before {
+  content: "\e911";
+}
+.icon-list-ul:before {
+  content: "\e901";
+}
+.icon-bitcoin:before {
+  content: "\e900";
+}
+.icon-btc:before {
+  content: "\e900";
+}

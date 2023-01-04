@@ -1,0 +1,333 @@
+@media screen and (min-width: 1920px){
+	
+}
+/*
+@media only screen and (max-width: 480px) and (min-width: 320px){
+	.hidem{display: none !important;}
+	.hided{display: block !important;}
+	.header{
+		background: #fff;
+		border-bottom: 1px #ddd solid;
+	}
+	.header .smenu,
+	.header .smenu:hover{
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		width: 80px;
+		border: 0px;
+		text-align: center;
+		background: #fff;
+	}
+	.header .smenu .l{ 
+		width: 25px;
+		height: 2px;
+		background: #444;
+		margin: 6px auto;
+	}
+	.header .logo{
+		width: 150px;
+		margin: 0 auto;
+		padding: 10px;
+		text-align: center;
+	}
+	.headerm{
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		width: 300px !important;
+		right: auto !important;
+		height: auto !important;
+		z-index: 999;
+		overflow-x: hidden;
+		overflow-y: auto;
+		transform: translateX(-350px);
+	}
+	.help .hmenu,
+	.help .hmenu:hover,
+	.profile .hmenu, 
+	.profile .hmenu:hover,
+	.headerm .hmenu,
+	.headerm .hmenu:hover{
+		border: 0px;
+		font-size: 25px;
+		background: rgba(255, 0, 0, 0);
+		padding: 8px 8px 8px 35px;
+		line-height: 1;
+		color: #005ee7;
+	}
+	.headerm .logo{
+		padding: 15px 30px 15px 10px;
+		margin-top: 5px;
+	}
+	.headerm .nav a {
+		padding: 15px 35px;
+		margin-bottom: 1px;
+	}
+	.header.visible{
+		transform: translateX(0px);
+		box-shadow: 0px 0px 10px #eaeaea;
+	}
+	
+	.home .section:nth-child(1){
+		flex-direction: column-reverse;
+		margin-bottom: 0px;
+	}
+	.home .section:nth-child(2){
+		flex-direction: column;
+	}
+	.home .browser{
+		zoom: 0.6;
+		margin: 0 auto;
+	}
+	.home .home-art {
+		width: 80%;
+		margin: 0px !important;
+	}
+	.home .meta {
+		text-align: left;
+		max-width: auto;
+		flex: 1;
+		width: 100% !important;
+		padding: 30px;
+	}
+	.home .section .icons {
+		width: 100% !important;
+		margin: 30px auto;
+		height: 140px;
+		text-align: center;
+		font-size: 140px;
+		align-items: baseline;
+	}
+	.home .section .icons .ico {
+		width: 60px;
+	}
+	.home .section .icons .ico3 {
+		font-size: 85px;
+		width: 60px;
+	}
+	.home .section .icons .ico1 {
+		font-size: 100px;
+	}
+	.home .btns {
+		width: 100% !important;
+		margin: 20px auto;
+	}
+	.home .meta-section {
+		margin: 50px 25px;
+		flex-direction: column;
+	}
+	.price-table{
+		flex-direction: column;
+		padding: 20px;
+		margin: 10px !important;
+	}
+	.price-block{
+		margin-bottom: 25px;
+	}
+	.price-table .pbs{height: 20px;}
+	.home .pro-section{margin-bottom: 50px;}
+	.footer{flex-direction: column;}
+	.footer .icd{margin-top: 35px;}
+	.zuz-account {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: auto !important;
+		padding: 0px 30px 75px 30px;
+	}
+	.premium .steps{
+		width: 100%;
+		margin: 40px auto;
+	}
+	.premium .steps .step .lbl {
+		font-size: 14px !important;
+	}
+	.premium .price-table{
+		padding: 0px;
+	}
+	.premium .all-lbl {
+		margin: 0px auto 40px auto;
+		width: 100% !important;
+	}
+	.premium .points {
+		margin: 20px auto;
+		width: 100%;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.zuzmsgbox .msgbox{
+		max-width: 90%;
+		min-width: 90%;
+	}
+	.drive .files{
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	.drive .files .head .actions button .ico{
+		margin-right: auto;
+	}
+	.drive .files .file-list .file .col-name{
+		max-width: 220px;
+	}
+	.drive .files .file-list .file .col-name .col-space{
+		
+	}
+	.drive .files .file-list .file .col-name div:nth-child(2){width: 100%;}
+	.drive .files .file-list .file .col-context{
+		text-align: right;
+	}
+	.drive .files .file-list .file .col-context button{
+		color: #333;
+		width: 50px;
+		height: 30px;
+		border: 0px;
+		background: rgba(0, 0, 0, 0);
+		font-size: 24px;
+		margin: 0 auto;
+	}
+	.payment-methods button.pm{
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.voucher-view {
+		width: 100%;
+	}
+	.alerts .list {
+		width: 100%;
+	}
+	.alerts .item {
+		background: #fff;
+		padding: 10px 15px;
+		flex-direction: column;
+		text-align: left;
+		align-items: baseline;
+	}
+	.alerts .item .meta {
+		width: 100% !important;
+	}
+	.alerts .item .stamp {
+		width: 130px;
+		text-align: right;
+		margin-left: 23px;
+		margin-top: 6px;
+	}
+	.profile .nav,
+	.help .nav{
+		position: fixed;
+		top: 60px;
+		left: 0px;
+		bottom: 0px;
+		z-index: 10;
+		transform: translateX(-250px);
+	}
+	.help .bmenu,
+	.profile .bmenu{
+		position: fixed;
+		z-index: 9;
+		margin: 15px 30px;
+		width: 80px;
+		padding: 6px;
+		border: 1px #005ee7 solid;
+		background: #fff;
+		color: #005ee7;
+	}
+	.help .navm,
+	.profile .navm{
+		transform: translateX(0px);
+	}
+	.aff-dash .block{padding: 10px 13px;}
+	.aff-dash .block h2:nth-child(2){
+		font-size: 12px;
+	}
+	.aff-checkout .amt .block h2:nth-child(2),
+	.aff-dash .block h2:nth-child(3){
+		font-size: 20px;
+	}
+	.aff-dash .block div.i {
+		font-size: 24px;
+	}
+	.aff-dash .heada{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.aff-dash .head .col{
+		margin-bottom: 20px;
+	}
+	.aff-dash .head .col-range input{
+		width: 110px;
+	}
+	.help .hmenu,
+	.profile .hmenu{
+		font-size: 19px;
+		color: #333 !important;
+		margin-right: 5px;
+		padding: 10px;
+	}
+	.aff-dash .stats {
+		padding: 60px 30px 30px 30px;
+	}
+	.aff-checkout {
+		padding: 60px 35px 20px 35px;
+	}
+	.aff-checkout .amt .block{padding: 10px 12px;}
+	.download{padding: 20px;}
+	.download .head {
+		padding: 0px;
+		width: 100%;
+	}
+	.download .speed{
+		flex-direction: column-reverse;
+	}
+	.download .speed .spd{
+		margin: 10px 10px 40px 10px;
+	}
+	.drive .upload-menu{
+		width: 200px;
+		text-align: left;
+		align-items: flex-start;
+	}
+	.drive .upload-menu button .ico {
+		margin-right: 15px !important;
+	}
+	.uploader .upload-item.hided{display: flex !important;}
+	
+	
+	.me .head {
+		padding: 25px 20px 0px 20px;
+		flex-direction: column;
+	}
+	.me .head .meta {
+		flex: 1;
+		margin-bottom: 20px;
+	}
+	.me .prof .blk {
+		margin-bottom: 25px;
+		flex-direction: column;
+		text-align: left;
+		align-items: flex-start;
+	}
+	.me .prof .label {
+		width: 150px;
+		margin-bottom: 10px;
+	}
+	.me .prof {
+		padding: 50px 0px;
+	}
+	.me .prof .iput{
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+	.me .button {
+		margin: 10px 0px 0px 0px;
+	}
+	.help-in{padding-top: 50px;}
+	.simplebar-content{overflow-x: hidden;}
+	.blog {
+		width: 100%;
+		padding: 0px 25px;
+	}
+	.profile .sites{padding-top: 50px;}
+	
+}
+*/
+
